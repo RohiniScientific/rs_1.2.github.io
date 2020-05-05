@@ -251,7 +251,7 @@ img {
     -webkit-box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
     box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
     transition: 0.25s all ease-in-out;
-    -webkit-transform: translateY(-10px); }
+    transform: translateY(-10px); }
 
 .our_services h1 {
   color: #19414b;
@@ -491,9 +491,10 @@ img {
 .our_clients .client_image {
   width: 20%;
   margin: auto 1rem;
-  padding-top: img;
-    padding-top-width: 100%;
-    padding-top-height: 100%; }
+  padding-top: 1rem; }
+  .our_clients .client_image img {
+    width: 100%;
+    height: 100%; }
 
 .footer_section {
   background: #042b34;
