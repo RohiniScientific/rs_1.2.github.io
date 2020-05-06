@@ -417,14 +417,28 @@ img {
     background-color: #f4f4f4;
     margin: 10% auto;
     padding: 20px 20px;
-    width: 50%;
+    width: 60%;
     height: 400px; }
+    @media (max-width: 1024px) {
+      .our_services .modal .modal_container {
+        width: 90%; } }
+    @media (max-width: 768px) {
+      .our_services .modal .modal_container {
+        width: 96%; } }
+    @media (max-width: 425px) {
+      .our_services .modal .modal_container {
+        height: 450px;
+        width: 95%; } }
   .our_services .modal .modal_img {
     width: 300px;
     height: 300px;
     margin: auto 1rem; }
+    @media (max-width: 425px) {
+      .our_services .modal .modal_img {
+        display: none; } }
     .our_services .modal .modal_img img {
-      width: 100%; }
+      width: 100%;
+      opacity: 1; }
   .our_services .modal .service_description {
     width: 50%; }
     .our_services .modal .service_description h1 {
@@ -433,10 +447,22 @@ img {
       font-size: 30px;
       margin: 0;
       padding-top: 4rem; }
+      @media (max-width: 425px) {
+        .our_services .modal .service_description h1 {
+          font-size: 25px;
+          padding-top: 2rem; } }
     .our_services .modal .service_description p {
       text-align: center;
       font-size: 18px;
-      margin: 1rem auto; }
+      margin: 1rem auto;
+      width: 80%; }
+      @media (max-width: 425px) {
+        .our_services .modal .service_description p {
+          width: 100%;
+          margin-top: 2rem; } }
+    @media (max-width: 425px) {
+      .our_services .modal .service_description {
+        margin: 0 auto; } }
 
 .our_services .service_container2 {
   display: grid;
