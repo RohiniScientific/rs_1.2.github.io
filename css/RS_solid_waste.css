@@ -55,9 +55,6 @@ img {
   @media (max-width: 1020px) {
     #hpmenuicondiv {
       display: block; } }
-  @media (max-width: 768px) {
-    #hpmenuicondiv {
-      display: block; } }
 
 #hpmobilemenuwrapper {
   display: none;
