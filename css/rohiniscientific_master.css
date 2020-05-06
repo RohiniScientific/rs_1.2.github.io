@@ -180,6 +180,11 @@ img {
   padding: 2em 0;
   margin: 3em 0;
   background-color: #f7f7f7; }
+  @media (max-width: 425px) {
+    .product_section {
+      background-color: #fff;
+      padding: 0;
+      margin: 0; } }
   .product_section h1 {
     color: #19414b;
     font-size: 50px;
@@ -189,7 +194,10 @@ img {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 0 5em; }
+    padding: 0em 5em; }
+    @media (max-width: 425px) {
+      .product_section .product_container {
+        padding: 0; } }
     .product_section .product_container .product_card {
       background-color: #fff;
       border-radius: 5px;
@@ -201,19 +209,25 @@ img {
       position: relative; }
       @media (max-width: 1024px) {
         .product_section .product_container .product_card {
-          width: 25%; } }
+          width: 28%; } }
       @media (max-width: 768px) {
         .product_section .product_container .product_card {
-          width: 40%; } }
+          width: 90%;
+          margin: 3em 0; } }
       @media (max-width: 425px) {
         .product_section .product_container .product_card {
-          width: 100%;
-          height: 270px; } }
+          width: 100%; } }
     .product_section .product_container .image {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
       width: 100%;
-      height: 150px; }
+      height: 160px; }
+      @media (max-width: 1024px) {
+        .product_section .product_container .image {
+          height: 220px; } }
+      @media (max-width: 768px) {
+        .product_section .product_container .image {
+          height: 280px; } }
     .product_section .product_container .organic_fertilizers {
       background: url("img/Rohini_Scientific/product_image1.jpg") no-repeat center center/cover; }
     .product_section .product_container .waste_water {
@@ -221,37 +235,50 @@ img {
     .product_section .product_container .solid_waste {
       background: url("img/Rohini_Scientific/showcase_img13.jpeg") no-repeat center center/cover; }
     .product_section .product_container .product_content {
-      margin: 1em;
+      margin: 0.5em;
       position: relative; }
       .product_section .product_container .product_content .product_title {
         font-size: 24px;
         text-align: center;
         color: #19414b;
         font-weight: 600; }
-        @media (max-width: 700px) {
+        @media (max-width: 1024px) {
           .product_section .product_container .product_content .product_title {
-            font-size: 20px;
-            margin: 0; } }
+            font-size: 28px;
+            margin: 0;
+            padding-top: 0.5em; } }
+        @media (max-width: 768px) {
+          .product_section .product_container .product_content .product_title {
+            font-size: 28px;
+            margin: 0;
+            padding-top: 0.5em; } }
       .product_section .product_container .product_content .product_description {
         text-align: center;
-        padding-bottom: 60px;
+        padding: 1em 2em 2em;
         font-size: 16px;
         color: #000; }
-        @media (max-width: 700px) {
+        @media (max-width: 1024px) {
           .product_section .product_container .product_content .product_description {
-            display: none; } }
+            padding: 0.5em 1.5em 2em; } }
+        @media (max-width: 768px) {
+          .product_section .product_container .product_content .product_description {
+            padding: 1em 3em 2em; } }
+        @media (max-width: 425px) {
+          .product_section .product_container .product_content .product_description {
+            padding: 1em 0 2em 0em; } }
     .product_section .product_container a {
       text-decoration: none; }
       .product_section .product_container a .learn_more {
-        position: absolute;
-        bottom: -4px;
-        right: 1rem;
+        position: relative;
         color: #19414b;
         font-size: 18px;
         text-align: center; }
+        @media (max-width: 768px) {
+          .product_section .product_container a .learn_more {
+            bottom: 10px; } }
         @media (max-width: 425px) {
           .product_section .product_container a .learn_more {
-            bottom: -30px; } }
+            bottom: 10px; } }
   .product_section .product_card:hover {
     -webkit-box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
     box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
