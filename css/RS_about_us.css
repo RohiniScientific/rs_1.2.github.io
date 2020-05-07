@@ -114,16 +114,30 @@ img {
       .footer_section .footer_container {
         margin: 0 auto;
         padding: 2rem 5rem; } }
+    @media (max-width: 425px) {
+      .footer_section .footer_container {
+        display: block;
+        padding: 1rem; } }
+    .footer_section .footer_container .footer_heading {
+      font-size: 20px; }
+      @media (max-width: 425px) {
+        .footer_section .footer_container .footer_heading {
+          font-size: 25px; } }
     .footer_section .footer_container .footer_contact_info {
       width: 30%; }
-      .footer_section .footer_container .footer_contact_info h3 {
-        font-size: 20px; }
+      @media (max-width: 425px) {
+        .footer_section .footer_container .footer_contact_info {
+          width: 100%;
+          margin: 0 auto; } }
       .footer_section .footer_container .footer_contact_info .footer_contact_content {
         margin: 0;
         padding: 0; }
         .footer_section .footer_container .footer_contact_info .footer_contact_content p {
           font-size: 16px;
           margin-right: 0; }
+          @media (max-width: 425px) {
+            .footer_section .footer_container .footer_contact_info .footer_contact_content p {
+              width: 100%; } }
       .footer_section .footer_container .footer_contact_info .phone_icon i {
         font-size: 23.5px; }
       .footer_section .footer_container .footer_contact_info .phone_number p {
@@ -141,9 +155,9 @@ img {
         .footer_section .footer_container .footer_company_info {
           width: 50%;
           padding-left: 3rem; } }
-      .footer_section .footer_container .footer_company_info h3 {
-        font-size: 20px;
-        padding-left: 10px; }
+      @media (max-width: 425px) {
+        .footer_section .footer_container .footer_company_info {
+          display: none; } }
       .footer_section .footer_container .footer_company_info ul {
         width: 20%; }
       .footer_section .footer_container .footer_company_info li {
@@ -156,23 +170,29 @@ img {
     .footer_section .footer_container .footer_contact {
       width: 25%;
       font-size: 16px; }
-      .footer_section .footer_container .footer_contact h3 {
-        font-size: 20px; }
+      @media (max-width: 425px) {
+        .footer_section .footer_container .footer_contact {
+          width: 100%;
+          margin: 0 auto; } }
       .footer_section .footer_container .footer_contact .flex {
         display: flex;
         align-items: center; }
       .footer_section .footer_container .footer_contact .email_id {
         padding: 10px; }
+      .footer_section .footer_container .footer_contact .pointer_icon {
+        padding-bottom: 4.5rem; }
+        @media (max-width: 425px) {
+          .footer_section .footer_container .footer_contact .pointer_icon {
+            padding-bottom: 9rem; } }
       .footer_section .footer_container .footer_contact .full_address {
         padding: 10px; }
       @media (max-width: 768px) {
         .footer_section .footer_container .footer_contact {
           width: 50%; } }
-    .footer_section .footer_container .social_media h3 {
-      font-size: 20px; }
-      @media (max-width: 768px) {
-        .footer_section .footer_container .social_media h3 {
-          padding-left: 1rem; } }
+    @media (max-width: 425px) {
+      .footer_section .footer_container .social_media {
+        width: 100%;
+        margin: 0 auto; } }
     .footer_section .footer_container .social_media a {
       text-decoration: none;
       color: #fff; }
@@ -184,10 +204,8 @@ img {
         font-size: 23.5px; }
       .footer_section .footer_container .social_media .smicon .social_media_text {
         padding-left: 8px; }
-    @media (max-width: 768px) {
-      .footer_section .footer_container .social_media {
-        width: 50%;
-        padding-left: 3rem; } }
+  .footer_section .copyright {
+    text-align: center; }
 
 .about_us {
   background: url("img/Rohini_Scientific/showcase_img4.jpeg") no-repeat center center/cover;
