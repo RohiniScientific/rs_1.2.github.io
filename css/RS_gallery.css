@@ -6,9 +6,10 @@ body {
   font-family: "Barlow", sans-serif;
   line-height: 1.6;
   max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  height: auto; }
+  margin: 0 auto; }
+  @media (max-width: 1500px) {
+    body {
+      margin: 1em; } }
 
 img {
   width: 100%; }
