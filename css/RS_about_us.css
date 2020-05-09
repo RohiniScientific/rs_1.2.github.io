@@ -227,11 +227,23 @@ img {
       font-size: 50px;
       color: #fff;
       font-weight: 600; }
+      @media (max-width: 768px) {
+        .about_us .showcase_content h1 {
+          font-size: 40px; } }
+      @media (max-width: 425px) {
+        .about_us .showcase_content h1 {
+          font-size: 35px; } }
     .about_us .showcase_content h3 {
       font-size: 40px;
       text-align: center;
       color: #fff;
       font-weight: 500; }
+      @media (max-width: 768px) {
+        .about_us .showcase_content h3 {
+          font-size: 30px; } }
+      @media (max-width: 425px) {
+        .about_us .showcase_content h3 {
+          font-size: 25px; } }
 
 .about_us_content {
   display: grid;
@@ -272,7 +284,8 @@ img {
     top: -25px; }
   .about_us_content .about_us_text p {
     font-size: 18px;
-    text-align: left; }
+    text-align: left;
+    padding: 1rem; }
 
 .mission {
   background-color: #f7f7f7;
@@ -298,6 +311,9 @@ img {
     color: #19414b;
     font-weight: 400;
     padding: 0 5rem; }
+    @media (max-width: 425px) {
+      .mission h3 {
+        padding: 0 2rem; } }
   .mission ul {
     text-indent: 10px;
     font-size: 18px;
@@ -306,7 +322,7 @@ img {
     margin: 0; }
     @media (max-width: 425px) {
       .mission ul {
-        padding: 0 1rem; } }
+        padding: 0 2rem; } }
   .mission p {
     text-indent: 10px;
     font-size: 18px;
@@ -395,9 +411,9 @@ img {
       font-size: 18px; }
       @media (max-width: 768px) {
         .our_team .team_container .team_content p {
-          text-align: center;
           margin: 0 auto; } }
       @media (max-width: 425px) {
         .our_team .team_container .team_content p {
-          width: 290px;
-          text-align: center; } }
+          max-width: 290px;
+          padding: 1rem;
+          margin: 0 auto; } }
