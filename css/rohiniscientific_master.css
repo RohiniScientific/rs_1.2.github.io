@@ -439,94 +439,85 @@ img {
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9);
   /* Black w/ opacity */ }
-  .our_services .modal .closeBtn {
-    color: #19414b;
-    font-size: 50px;
-    /* font-weight: bold; */
-    transition: 0.3s;
-    cursor: pointer;
+  .our_services .modal .modalcontents {
     position: relative;
-    text-align: right;
-    top: 10rem;
-    right: 4rem;
-    margin: 1rem 4rem; }
-    @media (min-width: 425px) {
-      .our_services .modal .closeBtn {
-        left: 3rem;
-        top: 6rem; } }
-    @media (min-width: 768px) {
-      .our_services .modal .closeBtn {
-        top: 9rem;
-        left: 2rem; } }
-    @media (min-width: 1440px) {
-      .our_services .modal .closeBtn {
-        top: 13rem;
-        right: 17rem; } }
-    @media (min-width: 2500px) {
-      .our_services .modal .closeBtn {
-        top: 20rem;
-        right: 52rem; } }
-  .our_services .modal .closeBtn:hover {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer; }
-  .our_services .modal .modal_container {
-    display: flex;
-    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #f4f4f4;
-    margin: 10% auto;
-    padding: 20px 20px;
-    width: 60%;
-    max-width: 800px; }
-    @media (max-width: 1024px) {
-      .our_services .modal .modal_container {
-        width: 90%; } }
-    @media (max-width: 768px) {
-      .our_services .modal .modal_container {
-        width: 96%; } }
-    @media (max-width: 425px) {
-      .our_services .modal .modal_container {
+    padding: 0.1em; }
+    @media (max-width: 767px) {
+      .our_services .modal .modalcontents {
+        padding: 0;
         width: 95%;
-        display: block; } }
-  .our_services .modal .modal_img {
-    width: 300px;
-    height: 300px;
-    margin: auto 1rem; }
-    @media (max-width: 425px) {
-      .our_services .modal .modal_img {
-        width: 95%;
-        margin: 2rem auto;
-        height: 200px; } }
-    .our_services .modal .modal_img img {
-      width: 100%;
-      opacity: 1; }
-  .our_services .modal .service_description {
-    width: 50%; }
-    @media (max-width: 425px) {
-      .our_services .modal .service_description {
-        width: 100%; } }
-    .our_services .modal .service_description h1 {
-      color: #19414b;
-      text-align: center;
-      font-size: 30px;
-      margin: 0;
-      padding-top: 4rem; }
-      @media (max-width: 425px) {
-        .our_services .modal .service_description h1 {
-          font-size: 25px;
-          padding-top: 2rem; } }
-    .our_services .modal .service_description p {
-      text-align: center;
-      font-size: 18px;
-      margin: 1rem auto;
-      width: 80%; }
-      @media (max-width: 425px) {
-        .our_services .modal .service_description p {
-          width: 100%;
-          margin: 1rem auto; } }
-    @media (max-width: 425px) {
-      .our_services .modal .service_description {
         margin: 0 auto; } }
+    .our_services .modal .modalcontents .closeBtn {
+      width: 18px;
+      z-index: 100;
+      position: absolute;
+      right: 24px;
+      top: 24px; }
+    .our_services .modal .modalcontents .modal_container {
+      display: flex;
+      justify-content: space-between;
+      margin: 10% auto;
+      padding: 20px 20px; }
+      @media (max-width: 1024px) {
+        .our_services .modal .modalcontents .modal_container {
+          width: 100%;
+          display: flex; } }
+      @media (max-width: 767px) {
+        .our_services .modal .modalcontents .modal_container {
+          width: 95%;
+          display: block; } }
+      @media (max-width: 425px) {
+        .our_services .modal .modalcontents .modal_container {
+          width: 95%;
+          display: block; } }
+    .our_services .modal .modalcontents .modal_img {
+      max-width: 400px;
+      margin: auto 3rem; }
+      @media (max-width: 767px) {
+        .our_services .modal .modalcontents .modal_img {
+          width: 100%;
+          margin: 5em auto; } }
+      @media (max-width: 425px) {
+        .our_services .modal .modalcontents .modal_img {
+          width: 90%;
+          margin: 4.5rem auto 1em;
+          height: 200px; } }
+      .our_services .modal .modalcontents .modal_img img {
+        width: 100%;
+        opacity: 1; }
+    .our_services .modal .modalcontents .service_description {
+      width: 50%; }
+      @media (max-width: 767px) {
+        .our_services .modal .modalcontents .service_description {
+          width: 100%; } }
+      @media (max-width: 425px) {
+        .our_services .modal .modalcontents .service_description {
+          width: 100%; } }
+      .our_services .modal .modalcontents .service_description h1 {
+        color: #19414b;
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+        padding-top: 0rem; }
+        @media (max-width: 425px) {
+          .our_services .modal .modalcontents .service_description h1 {
+            font-size: 25px;
+            padding-top: 2rem; } }
+      .our_services .modal .modalcontents .service_description p {
+        text-align: center;
+        font-size: 18px;
+        margin: 1rem auto;
+        width: 80%; }
+        @media (max-width: 425px) {
+          .our_services .modal .modalcontents .service_description p {
+            width: 100%;
+            margin: 1rem auto; } }
+      @media (max-width: 425px) {
+        .our_services .modal .modalcontents .service_description {
+          margin: 0 auto; } }
 
 .our_services .service_container2 {
   display: grid;
