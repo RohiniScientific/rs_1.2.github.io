@@ -597,34 +597,32 @@ h1 {
       font-size: 16px;
       text-align: center; }
 
-.our_clients h1 {
-  color: #19414b;
-  font-size: 50px;
-  line-height: 52px;
-  text-align: center;
-  font-weight: 500;
-  padding-top: 100px;
-  margin: 0; }
-  @media (max-width: 425px) {
-    .our_clients h1 {
-      padding-top: 50px;
-      font-size: 45px; } }
-
 .our_clients .client_container {
   display: flex;
-  justify-content: center;
-  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
   align-items: center;
-  /* background-color: red; */
   margin: 0 auto; }
   @media (max-width: 425px) {
     .our_clients .client_container {
       width: 100%; } }
 
 .our_clients .client_image {
-  width: 20%;
-  margin: auto 1rem;
-  padding-top: 1rem; }
+  width: 18%;
+  margin: auto 1em; }
+  @media (max-width: 768px) {
+    .our_clients .client_image {
+      width: 35%;
+      margin: 2.5rem auto; } }
+  @media (max-width: 425px) {
+    .our_clients .client_image {
+      width: 55%;
+      margin: 2.5rem auto; } }
+  @media (max-width: 320px) {
+    .our_clients .client_image {
+      width: 80%; } }
   .our_clients .client_image img {
     width: 100%;
     height: 100%; }
