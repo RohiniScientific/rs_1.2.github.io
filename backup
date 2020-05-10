@@ -1,3 +1,21 @@
+
+
+
+    <!-- Our Clients -->
+
+  <section class="our_clients">
+    <h1>Our Clients</h1>
+    <div class="client_container">
+      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image1.png" alt=""></div>
+      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image2.jpg" alt=""></div>
+      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image3.png" alt=""></div>
+      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image4.png" alt=""></div>
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+
+
  <!-- Our Products -->
 
     <div id="products" class="product_section">
@@ -75,126 +93,6 @@
     </div>
 
     
-
-    <!-- Testimonials -->
-
-    <!-- TESTIMONIALS -->
-
-    <section class="testimonial_section">
-      <h1>TESTIMONIALS</h1>
-      <div class="slick">
-        <div class="slickcontent">
-          <div class="testimonial_container">
-            <div class="testimonial_quote_left">
-              <i class="fas fa-quote-left"></i>
-            </div>
-            <div class="testimonial_content">
-              <h2>Mr. Satish</h2>
-              <h3>Manager</h3>
-              <h3>Malnad Alloys and Casting Pvt. Ltd.</h3>
-              <p>
-                The performance of the product is excellent in both waste
-                decomposition and in STP process. Additionally, the entire
-                process is simple and free from Odor. We are very happy and
-                satisfied with Rohini Scientific services and their products.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slickcontent">
-          <div class="testimonial_container">
-            <div class="testimonial_quote_left">
-              <i class="fas fa-quote-left"></i>
-            </div>
-            <div class="testimonial_content">
-              <h2>Mr Kadappa</h2>
-              <h3>Progressive Farmer</h3>
-              <h3>Tirthahalli, Shivmogga Dist.</h3>
-              <p>
-                I am getting very good yield of arecanut by using Rohini
-                Scientific products (Humigold-RS and Powergel-RS). The plants
-                are healthy and yield is more compared to previous years. The
-                application method is easy and cost effective.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slickcontent">
-          <div class="testimonial_container">
-            <div class="testimonial_quote_left">
-              <i class="fas fa-quote-left"></i>
-            </div>
-            <div class="testimonial_content">
-              <h2>Dr Manu</h2>
-              <h3>Scientist & Passionate Farmer</h3>
-              <h3>Chennagiri, Davanagere Dist.</h3>
-              <p>
-                We have been using his products for the past 2 years and have
-                completely moved to Organic farming and have harvested to see
-                good yields.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slickcontent">
-          <div class="testimonial_container">
-            <div class="testimonial_quote_left">
-              <i class="fas fa-quote-left"></i>
-            </div>
-            <div class="testimonial_content">
-              <h2>Dr Sunil</h2>
-              <h3>Professor & Passionate Farmer</h3>
-              <h3>Chennagiri, Davanagere Dist.</h3>
-              <p>
-                Their unique formulations of organic fertilizers are extremely
-                efficient in improving our plant growth and soil fertility. I
-                strongly recommend to use Rohini Scientific fertilizers as they
-                provide high quality products at afforable price.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slickcontent">
-          <div class="testimonial_container">
-            <div class="testimonial_quote_left">
-              <i class="fas fa-quote-left"></i>
-            </div>
-            <div class="testimonial_content">
-              <h2>Mr Ashok</h2>
-              <h3>Teacher & Farmer</h3>
-              <h3>Bhadravathi, Shivamogga Dist.</h3>
-              <p>
-                The products Humigold-RS, Powergel-RS and Ultrapower-RS are
-                extremely good on my land. These products increased the yield
-                upto 80% more than normal fertilizer which I used previous
-                years. The products have no side effects on soil and plants and
-                are absolutely cost effective. Being a farmer I recommend these
-                products to every farmer.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Our Clients -->
-
-  <section class="our_clients">
-    <h1>Our Clients</h1>
-    <div class="client_container">
-      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image1.png" alt=""></div>
-      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image2.jpg" alt=""></div>
-      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image3.png" alt=""></div>
-      <div class="client_image"><img src="css/img/Rohini_Scientific/client_image4.png" alt=""></div>
-    </div>
-  </section>
-
-    <!-- FOOTER -->
-
 
     <footer class="footer_section">
       <div class="footer_container">
@@ -309,3 +207,5 @@
   <div class="copyright">
    <p>	&copy; 2020 Rohini Scientific </p>
   </div>
+  
+    </footer>

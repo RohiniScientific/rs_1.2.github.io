@@ -14,6 +14,17 @@ body {
 img {
   width: 100%; }
 
+h1 {
+  color: #19414b;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 5rem; }
+  @media (max-width: 425px) {
+    h1 {
+      padding-top: 0.5rem;
+      font-size: 40px; } }
+
 .navbar {
   padding: 0.3rem 0; }
   .navbar .nav_container {
@@ -207,12 +218,6 @@ img {
     .product_section {
       width: 100%;
       background-color: #fff; } }
-  .product_section h1 {
-    color: #19414b;
-    font-size: 45px;
-    padding-top: 1em;
-    text-align: center;
-    font-weight: 500; }
   .product_section .product_container {
     display: flex;
     justify-content: space-around;
@@ -312,16 +317,6 @@ img {
     box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
     transition: 0.25s all ease-in-out;
     transform: translateY(-10px); }
-
-.our_services h1 {
-  color: #19414b;
-  font-size: 50px;
-  text-align: center;
-  font-weight: 500;
-  padding-top: 5rem; }
-  @media (max-width: 425px) {
-    .our_services h1 {
-      padding-top: 0.5rem; } }
 
 .our_services h2 {
   color: #19414b;
@@ -555,33 +550,27 @@ img {
 .testimonial_section {
   background-color: #f7f7f7;
   height: 750px; }
-  @media (max-width: 425px) {
-    .testimonial_section {
-      background-color: #fff; } }
-  .testimonial_section h1 {
-    color: #19414b;
-    font-size: 50px;
-    line-height: 52px;
-    text-align: center;
-    font-weight: 500;
-    padding-top: 100px; }
-    @media (max-width: 375px) {
-      .testimonial_section h1 {
-        font-size: 45px; } }
 
 .slick {
   margin: 50px auto;
   background-color: #fff;
-  width: 400px;
-  height: 500px;
   border-radius: 10px;
-  box-shadow: 0px 3px 18px #00000029; }
-  @media (max-width: 1024px) {
-    .slick {
-      min-width: 400px; } }
+  box-shadow: 0px 3px 18px #00000029;
+  width: 75%;
+  max-width: 600px;
+  min-height: 450px; }
   @media (max-width: 768px) {
     .slick {
-      margin: 0 auto; } }
+      margin: 0 auto;
+      min-height: 500px; } }
+  @media (max-width: 425px) {
+    .slick {
+      width: 95%;
+      margin: 0 auto;
+      min-height: 550px; } }
+  @media (max-width: 320px) {
+    .slick {
+      min-height: 580px; } }
   .slick .testimonial_container {
     padding-top: 1rem;
     margin: 40px auto; }
