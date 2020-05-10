@@ -115,108 +115,86 @@ h1 {
 
 .footer_section {
   background: #042b34;
-  color: #fff; }
+  color: #fff;
+  margin-top: 10em; }
   .footer_section .footer_container {
     display: flex;
     justify-content: space-around;
     justify-self: center;
-    padding: 2rem;
     flex-wrap: wrap; }
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       .footer_section .footer_container {
-        margin: 0 auto;
-        padding: 2rem 5rem; } }
-    @media (max-width: 425px) {
-      .footer_section .footer_container {
-        display: block;
-        padding: 1rem; } }
+        justify-content: space-between; } }
     .footer_section .footer_container .footer_heading {
-      font-size: 20px; }
-      @media (max-width: 425px) {
-        .footer_section .footer_container .footer_heading {
-          font-size: 25px; } }
-    .footer_section .footer_container .footer_contact_info {
-      width: 30%; }
-      @media (max-width: 425px) {
-        .footer_section .footer_container .footer_contact_info {
-          width: 100%;
-          margin: 0 auto; } }
-      .footer_section .footer_container .footer_contact_info .footer_contact_content {
-        margin: 0;
-        padding: 0; }
-        .footer_section .footer_container .footer_contact_info .footer_contact_content p {
-          font-size: 16px;
-          margin-right: 0; }
-          @media (max-width: 425px) {
-            .footer_section .footer_container .footer_contact_info .footer_contact_content p {
-              width: 100%; } }
-      .footer_section .footer_container .footer_contact_info .phone_icon i {
-        font-size: 23.5px; }
-      .footer_section .footer_container .footer_contact_info .phone_number p {
-        font-size: 26px;
-        padding-left: 10px; }
-      .footer_section .footer_container .footer_contact_info .flex {
-        display: flex;
-        align-items: center; }
-      @media (max-width: 768px) {
-        .footer_section .footer_container .footer_contact_info {
-          width: 50%; } }
-    .footer_section .footer_container .footer_company_info {
-      width: 15%; }
-      @media (max-width: 768px) {
-        .footer_section .footer_container .footer_company_info {
-          width: 50%;
-          padding-left: 3rem; } }
-      @media (max-width: 425px) {
-        .footer_section .footer_container .footer_company_info {
-          display: none; } }
-      .footer_section .footer_container .footer_company_info ul {
-        width: 20%; }
-      .footer_section .footer_container .footer_company_info li {
-        list-style-type: none;
-        padding: 5px; }
-      .footer_section .footer_container .footer_company_info a {
-        text-decoration: none;
-        color: #fff;
-        font-size: 16px; }
+      font-size: 24px; }
+    .footer_section .footer_container .footer_content {
+      margin: 3em 0;
+      width: 19%;
+      margin: 2em auto; }
+      @media (max-width: 1088px) {
+        .footer_section .footer_container .footer_content {
+          width: 35%;
+          margin: 2em auto; } }
+      @media (max-width: 670px) {
+        .footer_section .footer_container .footer_content {
+          width: 80%;
+          margin: 2em auto; } }
+    .footer_section .footer_container .footer_contact_info .footer_contact_content {
+      margin: 0;
+      padding: 0; }
+      .footer_section .footer_container .footer_contact_info .footer_contact_content p {
+        font-size: 16px;
+        margin-right: 0; }
+    .footer_section .footer_container .footer_contact_info .phone_icon i {
+      font-size: 23.5px; }
+    .footer_section .footer_container .footer_contact_info .phone_number p {
+      font-size: 26px;
+      padding-left: 10px; }
+    .footer_section .footer_container .footer_contact_info .flex {
+      display: flex;
+      align-items: center; }
+    .footer_section .footer_container .footer_company_info ul {
+      padding: 0; }
+    .footer_section .footer_container .footer_company_info li {
+      list-style-type: none;
+      padding: 20px 0; }
+    .footer_section .footer_container .footer_company_info a {
+      text-decoration: none;
+      color: #fff; }
     .footer_section .footer_container .footer_contact {
-      width: 25%;
       font-size: 16px; }
-      @media (max-width: 425px) {
-        .footer_section .footer_container .footer_contact {
-          width: 100%;
-          margin: 0 auto; } }
-      .footer_section .footer_container .footer_contact .flex {
+      .footer_section .footer_container .footer_contact .footer_contact_flex {
         display: flex;
-        align-items: center; }
-      .footer_section .footer_container .footer_contact .email_id {
-        padding: 10px; }
-      .footer_section .footer_container .footer_contact .pointer_icon {
-        padding-bottom: 4.5rem; }
-        @media (max-width: 425px) {
-          .footer_section .footer_container .footer_contact .pointer_icon {
-            padding-bottom: 9rem; } }
-      .footer_section .footer_container .footer_contact .full_address {
-        padding: 10px; }
-      @media (max-width: 768px) {
-        .footer_section .footer_container .footer_contact {
-          width: 50%; } }
-    @media (max-width: 425px) {
-      .footer_section .footer_container .social_media {
-        width: 100%;
-        margin: 0 auto; } }
+        align-items: flex-start;
+        margin: 2em 0; }
+        .footer_section .footer_container .footer_contact .footer_contact_flex .contact_text {
+          margin: 0; }
+        .footer_section .footer_container .footer_contact .footer_contact_flex .contact_icon {
+          margin-right: 1em; }
+    .footer_section .footer_container .social_media .social_media_content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
     .footer_section .footer_container .social_media a {
       text-decoration: none;
       color: #fff; }
-    .footer_section .footer_container .social_media .flex {
-      display: flex; }
     .footer_section .footer_container .social_media .smicon {
-      padding: 15px; }
+      display: flex;
+      width: 90%;
+      margin: 2em 1.5em 0 0; }
+      @media (max-width: 320px) {
+        .footer_section .footer_container .social_media .smicon {
+          width: 26%; } }
       .footer_section .footer_container .social_media .smicon i {
-        font-size: 23.5px; }
-      .footer_section .footer_container .social_media .smicon .social_media_text {
-        padding-left: 8px; }
+        font-size: 32px; }
+      @media (max-width: 425px) {
+        .footer_section .footer_container .social_media .smicon .social_media_text {
+          display: none; } }
+      .footer_section .footer_container .social_media .smicon .fab {
+        margin-right: 0.65em; }
   .footer_section .copyright {
+    margin: 6em 0;
+    padding-bottom: 4em;
     text-align: center; }
 
 .gallery_showcase {
