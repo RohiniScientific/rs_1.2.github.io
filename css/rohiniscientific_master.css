@@ -648,11 +648,11 @@ h1 {
       margin: 2.5rem auto; } }
   @media (max-width: 425px) {
     .product_certification .pc_image {
-      width: 55%;
-      margin: 2.5rem auto; } }
+      width: 45%;
+      margin: 2rem auto; } }
   @media (max-width: 320px) {
     .product_certification .pc_image {
-      width: 80%; } }
+      width: 50%; } }
   .product_certification .pc_image img {
     width: 100%;
     height: 100%; }
