@@ -182,9 +182,9 @@ h1 {
       display: flex;
       width: 90%;
       margin: 2em 1.5em 0 0; }
-      @media (max-width: 320px) {
+      @media (max-width: 425px) {
         .footer_section .footer_container .social_media .smicon {
-          width: 26%; } }
+          width: 24%; } }
       .footer_section .footer_container .social_media .smicon i {
         font-size: 32px; }
       @media (max-width: 425px) {
