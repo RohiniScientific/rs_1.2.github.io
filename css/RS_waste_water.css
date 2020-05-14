@@ -33,7 +33,8 @@ h1 {
     justify-content: space-between; }
     .navbar .nav_container .logodiv {
       width: 150px;
-      padding: 1rem 0; }
+      padding: 1rem 0;
+      margin-left: 1.5rem; }
     .navbar .nav_container .nav_content ul {
       display: flex;
       justify-self: flex-end;
@@ -203,9 +204,6 @@ h1 {
   height: 40vh;
   position: relative;
   z-index: 1; }
-  @media (max-width: 425px) {
-    .product_showcase {
-      height: 50vh; } }
   .product_showcase .overlay {
     position: absolute;
     top: 0;
@@ -227,6 +225,9 @@ h1 {
     text-align: center;
     color: #fff;
     font-weight: 500; }
+    @media (max-width: 425px) {
+      .product_showcase .product_showcase_content p {
+        display: none; } }
 
 .product_box {
   margin: 0 auto; }

@@ -33,7 +33,8 @@ h1 {
     justify-content: space-between; }
     .navbar .nav_container .logodiv {
       width: 150px;
-      padding: 1rem 0; }
+      padding: 1rem 0;
+      margin-left: 1.5rem; }
     .navbar .nav_container .nav_content ul {
       display: flex;
       justify-self: flex-end;
