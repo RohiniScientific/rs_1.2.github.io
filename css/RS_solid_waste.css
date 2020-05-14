@@ -203,6 +203,9 @@ h1 {
   height: 40vh;
   position: relative;
   z-index: 1; }
+  @media (max-width: 425px) {
+    .product_showcase {
+      height: 50vh; } }
   .product_showcase .overlay {
     position: absolute;
     top: 0;
@@ -216,6 +219,9 @@ h1 {
     font-size: 50px;
     color: #fff;
     font-weight: 600; }
+    @media (max-width: 425px) {
+      .product_showcase .product_showcase_content h1 {
+        font-size: 40px; } }
   .product_showcase .product_showcase_content p {
     font-size: 18px;
     text-align: center;
@@ -239,13 +245,10 @@ h1 {
   .product_box .image {
     width: 100%;
     border-radius: 5px;
-    margin: 3rem auto;
-    text-align: center;
-    color: #19414b;
-    font-size: 40px; }
+    margin: 2rem auto; }
   .product_box .ecoclean {
-    background: url("img/Rohini_Scientific/showcase_img12.jpeg") no-repeat center center/cover;
-    width: 80%;
+    background: url("img/Rohini_Scientific/Eco_Clean_RS.png") no-repeat center center/cover;
+    width: 90%;
     height: 400px; }
     @media (max-width: 768px) {
       .product_box .ecoclean {
