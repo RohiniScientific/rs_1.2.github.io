@@ -258,7 +258,7 @@ h1 {
       .product_box .ecozyme {
         height: 300px; } }
   .product_box .sandrain {
-    background: url("img/Rohini_Scientific/San_Drain_RS.png") no-repeat center center/cover;
+    background: url("img/Rohini_Scientific/sanDrain_RS.png") no-repeat center center/cover;
     width: 90%;
     height: 400px; }
     @media (max-width: 768px) {
