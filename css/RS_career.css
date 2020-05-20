@@ -179,19 +179,22 @@ h1 {
     .footer_section .footer_container .social_media a {
       text-decoration: none;
       color: #fff; }
-    .footer_section .footer_container .social_media .smicon {
+    .footer_section .footer_container .social_media .link_tag .smicon {
       display: flex;
-      width: 90%;
+      width: 80%;
       margin: 2em 1.5em 0 0; }
+      @media (max-width: 1024px) {
+        .footer_section .footer_container .social_media .link_tag .smicon {
+          margin: 2em 2em 0 0; } }
       @media (max-width: 425px) {
-        .footer_section .footer_container .social_media .smicon {
+        .footer_section .footer_container .social_media .link_tag .smicon {
           width: 24%; } }
-      .footer_section .footer_container .social_media .smicon i {
+      .footer_section .footer_container .social_media .link_tag .smicon i {
         font-size: 32px; }
       @media (max-width: 425px) {
-        .footer_section .footer_container .social_media .smicon .social_media_text {
+        .footer_section .footer_container .social_media .link_tag .smicon .social_media_text {
           display: none; } }
-      .footer_section .footer_container .social_media .smicon .fab {
+      .footer_section .footer_container .social_media .link_tag .smicon .fab {
         margin-right: 0.65em; }
   .footer_section .copyright {
     margin: 2em 0;
@@ -227,6 +230,13 @@ h1 {
 
 .career_content .second_line {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: #19414b;
   padding: 1rem; }
+
+.career_content .third_line {
+  text-align: center;
+  font-size: 22px;
+  color: #19414b;
+  padding: 1rem;
+  font-weight: 600; }
