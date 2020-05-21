@@ -745,8 +745,11 @@ h1 {
       color: #fff; }
     .footer_section .footer_container .social_media .smicon {
       display: flex;
-      width: 90%;
+      width: 80%;
       margin: 2em 1.5em 0 0; }
+      @media (max-width: 1024px) {
+        .footer_section .footer_container .social_media .smicon {
+          margin: 2em 2em 0 0; } }
       @media (max-width: 425px) {
         .footer_section .footer_container .social_media .smicon {
           width: 24%; } }
