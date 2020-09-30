@@ -290,6 +290,26 @@ h1 {
     @media (max-width: 425px) {
       .product_box .powergel {
         height: 300px; } }
+  .product_box .candid {
+    background: url("img/Rohini_Scientific/Candid_RS_bg.jpg") no-repeat center center/cover;
+    width: 90%;
+    height: 400px; }
+    @media (max-width: 768px) {
+      .product_box .candid {
+        width: 100%; } }
+    @media (max-width: 425px) {
+      .product_box .candid {
+        height: 300px; } }
+  .product_box .smaash {
+    background: url("img/Rohini_Scientific/Smaash_RS.jpg") no-repeat center center/cover;
+    width: 90%;
+    height: 400px; }
+    @media (max-width: 768px) {
+      .product_box .smaash {
+        width: 100%; } }
+    @media (max-width: 425px) {
+      .product_box .smaash {
+        height: 300px; } }
   .product_box .product_content .product_heading {
     font-size: 28px;
     color: #19414b;
