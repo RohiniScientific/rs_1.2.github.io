@@ -114,215 +114,261 @@ h1 {
   color: #19414b;
   padding: 20px; }
 
-.showcase {
-  background: url("img/Rohini_Scientific/showcase_img12.jpeg") no-repeat center center/cover;
-  position: relative;
-  height: 700px;
+.heroSection .slick2 {
+  box-sizing: border-box;
   width: 100%; }
-  @media (max-width: 1024px) {
-    .showcase {
-      height: 700px;
-      width: 100%; } }
-  @media (max-width: 768px) {
-    .showcase {
-      height: 500px;
-      width: 100%; } }
-  @media (max-width: 375px) {
-    .showcase {
-      height: 500px;
-      width: 100%; } }
-  .showcase .inner_box {
-    background-color: #f7f7f7;
-    position: absolute;
-    opacity: 0.8;
-    border-radius: 5px;
-    margin: 10rem 0;
-    left: 100px;
-    width: 50%;
-    max-height: 500px; }
+  .heroSection .slick2 .showcase {
+    background: url("img/Rohini_Scientific/showcase_img12.jpeg") no-repeat center center/cover;
+    position: relative;
+    height: 700px;
+    width: 100%; }
     @media (max-width: 1024px) {
-      .showcase .inner_box {
-        width: 60%;
-        left: 40px;
-        bottom: -100px; } }
+      .heroSection .slick2 .showcase {
+        height: 700px;
+        width: 100%; } }
     @media (max-width: 768px) {
-      .showcase .inner_box {
-        max-height: 400px;
-        margin: 2.5rem;
-        width: 70%;
-        left: -20px;
-        bottom: -20px; } }
-    @media (max-width: 425px) {
-      .showcase .inner_box {
-        height: 300px;
-        width: 100%;
-        border-radius: 0;
-        left: -40px;
-        bottom: -40px; } }
-    @media (max-width: 320px) {
-      .showcase .inner_box {
-        height: 320px; } }
-  .showcase h1 {
-    color: #19414b;
-    font-size: 36px;
-    text-align: left;
-    font-weight: 500;
-    margin-top: 1rem;
-    padding: 2rem 2rem 0 2rem; }
-    @media (max-width: 425px) {
-      .showcase h1 {
-        font-size: 20px; } }
-    @media (max-width: 768px) {
-      .showcase h1 {
-        font-size: 25px;
-        padding: 1rem 1rem o 1rem; } }
-  .showcase p {
-    font-size: 20px;
-    text-align: left;
-    margin: 1rem 0;
-    padding: 0 2rem;
-    max-width: 500px; }
-    @media (max-width: 700px) {
-      .showcase p {
-        display: none; } }
-  .showcase .btn {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    width: 20%;
-    height: 42px;
-    margin: 2.5rem 0 2rem 2rem;
-    background-color: #19414b;
-    font-weight: 600;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    @media (max-width: 768px) {
-      .showcase .btn {
-        width: 40%;
-        height: 40px; } }
-  .showcase .btn:hover {
-    background-color: #45aa33;
-    color: #19414b; }
-
-.product_section {
-  background-color: #f7f7f7; }
-  @media (max-width: 425px) {
-    .product_section {
-      width: 100%; } }
-  @media (max-width: 375px) {
-    .product_section {
-      width: 100%; } }
-  @media (max-width: 320px) {
-    .product_section {
-      width: 100%;
-      background-color: #fff; } }
-  .product_section .product_container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .product_section .product_container .product_card {
-      background-color: #fff;
+      .heroSection .slick2 .showcase {
+        height: 500px;
+        width: 100%; } }
+    @media (max-width: 375px) {
+      .heroSection .slick2 .showcase {
+        height: 500px;
+        width: 100%; } }
+    .heroSection .slick2 .showcase .inner_box {
+      background-color: #f7f7f7;
+      position: absolute;
+      opacity: 0.8;
       border-radius: 5px;
-      transition: 0.25s all ease-in-out;
-      box-shadow: 0px 3px 18px #00000029;
-      cursor: pointer;
-      margin: 1em;
-      width: 25%;
-      position: relative; }
+      margin: 10rem 0;
+      left: 100px;
+      width: 50%;
+      max-height: 500px; }
       @media (max-width: 1024px) {
-        .product_section .product_container .product_card {
-          width: 28%; } }
-      @media (max-width: 768px) {
-        .product_section .product_container .product_card {
+        .heroSection .slick2 .showcase .inner_box {
           width: 60%;
-          margin-bottom: 4em; } }
-      @media (max-width: 425px) {
-        .product_section .product_container .product_card {
-          width: 100%;
-          margin-bottom: 3em; } }
-    .product_section .product_container .image {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-      width: 100%;
-      height: 160px; }
-      @media (max-width: 1024px) {
-        .product_section .product_container .image {
-          height: 220px; } }
+          left: 40px;
+          bottom: -100px; } }
       @media (max-width: 768px) {
-        .product_section .product_container .image {
-          height: 280px; } }
-    .product_section .product_container .organic_fertilizers {
-      background: url("img/Rohini_Scientific/product_image1.jpg") no-repeat center center/cover; }
-    .product_section .product_container .waste_water {
-      background: url("img/Rohini_Scientific/product_image2.jpg") no-repeat center center/cover; }
-    .product_section .product_container .solid_waste {
-      background: url("img/Rohini_Scientific/showcase_img13.jpeg") no-repeat center center/cover; }
-    .product_section .product_container .product_content {
-      margin: 0.5em;
-      position: relative; }
-      .product_section .product_container .product_content .product_title {
-        font-size: 24px;
-        text-align: center;
-        color: #19414b;
-        font-weight: 600; }
-        @media (max-width: 1024px) {
-          .product_section .product_container .product_content .product_title {
-            font-size: 28px;
-            margin: 0;
-            padding-top: 0.5em; } }
-        @media (max-width: 768px) {
-          .product_section .product_container .product_content .product_title {
-            font-size: 28px;
-            margin: 0;
-            padding-top: 0.5em; } }
-      .product_section .product_container .product_content .product_description {
-        text-align: center;
-        padding: 1em 2em 2em;
-        font-size: 16px;
-        color: #000; }
-        @media (max-width: 1024px) {
-          .product_section .product_container .product_content .product_description {
-            padding: 0.5em 1.5em 2em; } }
-        @media (max-width: 768px) {
-          .product_section .product_container .product_content .product_description {
-            padding: 1em 3em 2em; } }
-        @media (max-width: 425px) {
-          .product_section .product_container .product_content .product_description {
-            padding: 1em 0 2em 0em; } }
-    .product_section .product_container a {
-      text-decoration: none; }
-      .product_section .product_container a .learn_more {
-        position: relative;
-        color: #19414b;
-        font-size: 18px;
-        text-align: center;
-        bottom: 10px; }
-      .product_section .product_container a .card1learnmore {
-        bottom: -15px; }
-        @media (max-width: 1024px) {
-          .product_section .product_container a .card1learnmore {
-            bottom: -58px; } }
-        @media (max-width: 768px) {
-          .product_section .product_container a .card1learnmore {
-            bottom: 10px; } }
-      .product_section .product_container a .card2learnmore {
-        bottom: -15px; }
-        @media (max-width: 1440px) {
-          .product_section .product_container a .card2learnmore {
-            bottom: 10px; } }
-    .product_section .product_container .product_contact {
-      text-align: center;
-      font-size: 24px;
+        .heroSection .slick2 .showcase .inner_box {
+          max-height: 400px;
+          margin: 2.5rem;
+          width: 70%;
+          left: -20px;
+          bottom: -20px; } }
+      @media (max-width: 425px) {
+        .heroSection .slick2 .showcase .inner_box {
+          height: 300px;
+          width: 100%;
+          border-radius: 0;
+          left: -40px;
+          bottom: -40px; } }
+      @media (max-width: 320px) {
+        .heroSection .slick2 .showcase .inner_box {
+          height: 320px; } }
+    .heroSection .slick2 .showcase h1 {
       color: #19414b;
-      padding: 1rem; }
-  .product_section .product_card:hover {
-    -webkit-box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
-    box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
+      font-size: 36px;
+      text-align: left;
+      font-weight: 500;
+      margin-top: 1rem;
+      padding: 2rem 2rem 0 2rem; }
+      @media (max-width: 425px) {
+        .heroSection .slick2 .showcase h1 {
+          font-size: 20px; } }
+      @media (max-width: 768px) {
+        .heroSection .slick2 .showcase h1 {
+          font-size: 25px;
+          padding: 1rem 1rem o 1rem; } }
+    .heroSection .slick2 .showcase p {
+      font-size: 20px;
+      text-align: left;
+      margin: 1rem 0;
+      padding: 0 2rem;
+      max-width: 500px; }
+      @media (max-width: 700px) {
+        .heroSection .slick2 .showcase p {
+          display: none; } }
+    .heroSection .slick2 .showcase .btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 16px;
+      color: #fff;
+      width: 20%;
+      height: 42px;
+      margin: 2.5rem 0 2rem 2rem;
+      background-color: #19414b;
+      font-weight: 600;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      @media (max-width: 768px) {
+        .heroSection .slick2 .showcase .btn {
+          width: 40%;
+          height: 40px; } }
+    .heroSection .slick2 .showcase .btn:hover {
+      background-color: #45aa33;
+      color: #19414b; }
+  .heroSection .slick2 .showcase2 {
+    width: 100%;
+    height: 700px;
+    background: url("img/Rohini_Scientific/product_image2.jpg") no-repeat center center/cover;
+    position: relative; }
+    .heroSection .slick2 .showcase2 .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 9999;
+      display: flex;
+      justify-content: space-evenly; }
+      .heroSection .slick2 .showcase2 .overlay .showcase2_image {
+        width: 600px;
+        height: 600px;
+        margin: 4rem;
+        background: url("img/Rohini_Scientific/showcase2_image.png") no-repeat center center/cover; }
+      .heroSection .slick2 .showcase2 .overlay .sandrainContent {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 3rem;
+        line-height: 50px; }
+        .heroSection .slick2 .showcase2 .overlay .sandrainContent h3 {
+          font-size: 28px;
+          font-weight: 700; }
+        .heroSection .slick2 .showcase2 .overlay .sandrainContent .btn {
+          display: inline-block;
+          width: 150px;
+          height: 50px;
+          text-align: center;
+          padding: 1px auto;
+          background-color: #45aa33;
+          border-radius: 5px;
+          color: #fff;
+          margin-top: 20px; }
+        .heroSection .slick2 .showcase2 .overlay .sandrainContent a {
+          text-decoration: none; }
+
+@media (max-width: 425px) {
+  .product_section {
+    width: 100%; } }
+
+@media (max-width: 375px) {
+  .product_section {
+    width: 100%; } }
+
+@media (max-width: 320px) {
+  .product_section {
+    width: 100%;
+    background-color: #fff; } }
+
+.product_section .product_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .product_section .product_container .product_card {
+    background-color: #fff;
+    border-radius: 5px;
     transition: 0.25s all ease-in-out;
-    transform: translateY(-10px); }
+    box-shadow: 0px 3px 18px #00000029;
+    cursor: pointer;
+    margin: 1em;
+    width: 25%;
+    position: relative; }
+    @media (max-width: 1024px) {
+      .product_section .product_container .product_card {
+        width: 28%; } }
+    @media (max-width: 768px) {
+      .product_section .product_container .product_card {
+        width: 60%;
+        margin-bottom: 4em; } }
+    @media (max-width: 425px) {
+      .product_section .product_container .product_card {
+        width: 100%;
+        margin-bottom: 3em; } }
+  .product_section .product_container .image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 160px; }
+    @media (max-width: 1024px) {
+      .product_section .product_container .image {
+        height: 220px; } }
+    @media (max-width: 768px) {
+      .product_section .product_container .image {
+        height: 280px; } }
+  .product_section .product_container .organic_fertilizers {
+    background: url("img/Rohini_Scientific/product_image1.jpg") no-repeat center center/cover; }
+  .product_section .product_container .waste_water {
+    background: url("img/Rohini_Scientific/product_image2.jpg") no-repeat center center/cover; }
+  .product_section .product_container .solid_waste {
+    background: url("img/Rohini_Scientific/showcase_img13.jpeg") no-repeat center center/cover; }
+  .product_section .product_container .product_content {
+    margin: 0.5em;
+    position: relative; }
+    .product_section .product_container .product_content .product_title {
+      font-size: 24px;
+      text-align: center;
+      color: #19414b;
+      font-weight: 600; }
+      @media (max-width: 1024px) {
+        .product_section .product_container .product_content .product_title {
+          font-size: 28px;
+          margin: 0;
+          padding-top: 0.5em; } }
+      @media (max-width: 768px) {
+        .product_section .product_container .product_content .product_title {
+          font-size: 28px;
+          margin: 0;
+          padding-top: 0.5em; } }
+    .product_section .product_container .product_content .product_description {
+      text-align: center;
+      padding: 1em 2em 2em;
+      font-size: 16px;
+      color: #000; }
+      @media (max-width: 1024px) {
+        .product_section .product_container .product_content .product_description {
+          padding: 0.5em 1.5em 2em; } }
+      @media (max-width: 768px) {
+        .product_section .product_container .product_content .product_description {
+          padding: 1em 3em 2em; } }
+      @media (max-width: 425px) {
+        .product_section .product_container .product_content .product_description {
+          padding: 1em 0 2em 0em; } }
+  .product_section .product_container a {
+    text-decoration: none; }
+    .product_section .product_container a .learn_more {
+      position: relative;
+      color: #19414b;
+      font-size: 18px;
+      text-align: center;
+      bottom: 10px; }
+    .product_section .product_container a .card1learnmore {
+      bottom: -15px; }
+      @media (max-width: 1024px) {
+        .product_section .product_container a .card1learnmore {
+          bottom: -58px; } }
+      @media (max-width: 768px) {
+        .product_section .product_container a .card1learnmore {
+          bottom: 10px; } }
+    .product_section .product_container a .card2learnmore {
+      bottom: -15px; }
+      @media (max-width: 1440px) {
+        .product_section .product_container a .card2learnmore {
+          bottom: 10px; } }
+  .product_section .product_container .product_contact {
+    text-align: center;
+    font-size: 24px;
+    color: #19414b;
+    padding: 1rem; }
+
+.product_section .product_card:hover {
+  -webkit-box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
+  box-shadow: 1px 11px 23px -2px rgba(0, 0, 0, 0.34);
+  transition: 0.25s all ease-in-out;
+  transform: translateY(-10px); }
 
 .our_services h2 {
   color: #19414b;
@@ -684,7 +730,7 @@ h1 {
   margin-top: 10em; }
   .footer_section .footer_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-self: center;
     flex-wrap: wrap; }
     @media (max-width: 1024px) {
@@ -764,3 +810,29 @@ h1 {
     margin: 2em 0;
     padding-bottom: 2em;
     text-align: center; }
+
+.contactForm h2 {
+  padding-bottom: 20px; }
+
+.contactForm .contact-input {
+  background: #fff;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  border: none; }
+
+.contactForm .contact-input:focus {
+  background: #1a1a1a; }
+
+.contactForm .Btn {
+  font-size: 15px;
+  background-color: #006669;
+  color: #fff;
+  height: 40px;
+  width: 32%;
+  cursor: pointer;
+  padding: 10px; }
+  @media only screen and (max-width: 981px) {
+    .contactForm .Btn {
+      width: 100%; } }

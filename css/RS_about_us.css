@@ -120,7 +120,7 @@ h1 {
   margin-top: 10em; }
   .footer_section .footer_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-self: center;
     flex-wrap: wrap; }
     @media (max-width: 1024px) {
@@ -200,6 +200,32 @@ h1 {
     margin: 2em 0;
     padding-bottom: 2em;
     text-align: center; }
+
+.contactForm h2 {
+  padding-bottom: 20px; }
+
+.contactForm .contact-input {
+  background: #fff;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  border: none; }
+
+.contactForm .contact-input:focus {
+  background: #1a1a1a; }
+
+.contactForm .Btn {
+  font-size: 15px;
+  background-color: #006669;
+  color: #fff;
+  height: 40px;
+  width: 32%;
+  cursor: pointer;
+  padding: 10px; }
+  @media only screen and (max-width: 981px) {
+    .contactForm .Btn {
+      width: 100%; } }
 
 .about_us {
   background: url("img/Rohini_Scientific/showcase_img4.jpeg") no-repeat center center/cover;
