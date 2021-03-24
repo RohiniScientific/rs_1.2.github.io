@@ -224,11 +224,26 @@ h1 {
       z-index: 9999;
       display: flex;
       justify-content: space-evenly; }
-      .heroSection .slick2 .showcase2 .overlay .showcase2_image {
-        width: 600px;
-        height: 600px;
+      @media (max-width: 425px) {
+        .heroSection .slick2 .showcase2 .overlay {
+          flex-direction: column; } }
+      .heroSection .slick2 .showcase2 .overlay .showcase2 {
+        width: 25%;
+        height: auto;
         margin: 4rem;
         background: url("img/Rohini_Scientific/showcase2_image.png") no-repeat center center/cover; }
+        @media (max-width: 1440px) {
+          .heroSection .slick2 .showcase2 .overlay .showcase2 {
+            width: 28%; } }
+        @media (max-width: 1024px) {
+          .heroSection .slick2 .showcase2 .overlay .showcase2 {
+            width: 40%; } }
+        @media (max-width: 768px) {
+          .heroSection .slick2 .showcase2 .overlay .showcase2 {
+            width: 400px;
+            height: 400px; } }
+        .heroSection .slick2 .showcase2 .overlay .showcase2 .image2 {
+          width: 100%; }
       .heroSection .slick2 .showcase2 .overlay .sandrainContent {
         color: #fff;
         font-weight: 600;
