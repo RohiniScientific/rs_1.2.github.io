@@ -411,7 +411,7 @@ h1 {
 }
 
 .product_box .ecozyme {
-  background: url("img/Rohini_Scientific/Eco_Zyme_RS.png") no-repeat center center/cover;
+  background: url("img/Rohini_Scientific/EcoZyme_RS_bg.png") no-repeat center center/cover;
   width: 90%;
   height: 400px;
 }
@@ -429,7 +429,7 @@ h1 {
 }
 
 .product_box .sandrain {
-  background: url("img/Rohini_Scientific/sanDrain_RS.png") no-repeat center center/cover;
+  background: url("img/Rohini_Scientific/sanDrain_RS_bg.png") no-repeat center center/cover;
   width: 90%;
   height: 400px;
 }
@@ -447,8 +447,8 @@ h1 {
 }
 
 .product_box .septosplash {
-  background: url("img/Rohini_Scientific/showcase_img12.jpeg") no-repeat center center/cover;
-  width: 80%;
+  background: url("img/Rohini_Scientific/septoSplash_RS_bg.png") no-repeat center center/cover;
+  width: 90%;
   height: 400px;
 }
 

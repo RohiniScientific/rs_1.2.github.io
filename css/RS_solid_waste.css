@@ -428,6 +428,24 @@ h1 {
   }
 }
 
+.product_box .sandrain {
+  background: url("img/Rohini_Scientific/sanDrain_RS_bg.png") no-repeat center center/cover;
+  width: 90%;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .product_box .sandrain {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .product_box .sandrain {
+    height: 300px;
+  }
+}
+
 .product_box .product_content .product_heading {
   font-size: 28px;
   color: #19414b;
