@@ -437,7 +437,7 @@ h1 {
 @media (max-width: 425px) {
   .about_us_content .about_us_image {
     width: 100%;
-    padding: 2rem  0;
+    padding: 2rem 0;
   }
 }
 
@@ -580,7 +580,6 @@ h1 {
 
 .our_team .team_container .team_member_image {
   width: 35%;
-  height: 30%;
   margin: 10px auto;
   padding: 0 80px;
 }
